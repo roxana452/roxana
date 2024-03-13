@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Website</title>
+  <style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Beige background color */
+}
+
+header {
+  background-color: #ffdab9; /* Light coral pastel color */
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: #ffc0cb; /* Pink pastel color */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px; /* Added padding to container */
+}
+
+.recipe-category {
+  margin-bottom: 20px;
+}
+
+.recipe-category h2 {
+  text-align: center;
+}
+
+.recipe-card {
+  padding: 200px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fff; /* White background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for card */
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+}
+
+.recipe-card p {
+  margin-bottom: 10px;
+}
+
+.recipe-card img {
+  max-width: 40%; /* Adjusted image width */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: block; /* Ensure images are block elements */
+  margin-left: auto; /* Center images */
+  margin-right: auto; /* Center images */
+}
+
+.recipe-card .ingredients {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 20px; /* Increased margin */
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Colors for recipe categories */
+.meat .recipe-card {
+  background-color: #add8e6; /* Light blue pastel color for meat recipes */
+}
+.vegetarian .recipe-card {
+  background-color: #ffcccb; /* Light coral pastel color for vegetarian recipes */
+}
+.dessert .recipe-card {
+  background-color: #ffffcc; /* Light yellow pastel color for dessert recipes */
+}
+
+/* Media query for responsive design */
+@media (max-width: 300px) {
+  .recipe-card img {
+    max-width: 40%; /* Adjust image width for smaller screens */
+  }
+}
+
+
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>Recipes Website</h1>
+  </header>
+  <nav>
+    <a href="#meat">Meat Recipes</a>
+    <a href="#vegetarian">Vegetarian Recipes</a>
+    <a href="#desserts">Dessert Recipes</a>
+  </nav>
+  <div class="container">
+    <section id="meat" class="recipe-category">
+      <h2>Meat Recipes</h2>
+     <!-- Recipe 1 -->
+<div class="recipe-card">
+  <img src="Garlic and Rosemary Beef.jpg" alt="Garlic and Rosemary Beef">
+  <h3>Beef Tips</h3>
+  <div class="ingredients">
+    <p>Meat:</p>
+    <ul>
+      <li>1 1/2 lbs Beef tips</li>
+    </ul>
+    <p>Produs:</p>
+    <ul>
+      <li>2 tbsp Garlic</li>
+      <li>1 Onion</li>
+      <li>1 sprigs Rosemary</li>
+      <li>1 sprig Thyme, fresh</li>
+    </ul>
+    <p>Conserve:</p>
+    <ul>
+      <li>2 cups Beef broth</li>
+    </ul>
+    <p>Condiments:</p>
+    <ul>
+      <li>1/4 cup Worcestershire sauce</li>
+    </ul>
+    <p>Sweets and spices:</p>
+    <ul>
+      <li>1/3 cup Flour</li>
+      <li>Salt and pepper</li>
+    </ul>
+    <p>Sauces</p>
+    <ul>
+      <li>3 tbsp Olive oil</li>
+    </ul>
+    <p>Recommended drinks</p>
+    <ul>
+      <li>1/2 cup Red wine, dry</li>
+    </ul>
+  </div>
+  <p>Instructions: Season beef with spices and Worcestershire sauce
+    Then toss beef in 1/4 of the flour
+    Heat olive oil in pot on medium heat
+    Brown beef in batches on both sides until all meat is brown; set aside
+    Saute onions until translucent
+    Sprinkle in remaining flour and stir until no longer visible
+    Add in the garlic
+    Pour in red wine and stir until brown bits loosen from the bottom of the pot
+    Add beef back in
+    Pour in the beef broth
+    Bring to a simmer
+    Add in thyme and rosemary
+    Lower heat, cover, and simmer for 2 hours or until beef is fork tender
+    Remove thyme and rosemary sprigs before serving
+    Enjoy!</p>
+</div>
+
+          </ul>
+        </div>
+        
+      </div>
+    
+      <!-- Recipe 2 -->
+<div class="recipe-card">
+  <img src="chicken.webp" alt="Chicken Wings">
+  <h3>Chicken Wings</h3>
+  <div class="ingredients">
+    <p>For the Wings:</p>
+    <ul>
+      <li>2 lbs Chicken wings</li>
+      <li>2 tsp Coarse salt</li>
+      <li>1 TBSP Onion powder</li>
+      <li>2 tsp Paprika</li>
+      <li>Peanut oil for frying</li>
+    </ul>
+    <p>For the Honey Hot Sauce:</p>
+    <ul>
+      <li>1/3 cup Louisiana or Crystal Hot Sauce</li>
+      <li>2 TBSP Unsalted butter</li>
+      <li>1/2 cup Honey</li>
+      <li>1 tsp Garlic powder</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>First things first, let’s get our chicken wings ready for their flavorful transformation. Start by patting those wings dry with some trusty paper towels. This step ensures that we get that crispy goodness we all crave.</li>
+    <li>Next, sprinkle on the coarse salt, onion powder, and paprika. Give those wings a good toss to ensure they’re coated evenly. It’s like giving them a flavor hug that they’ll remember.</li>
+  </ol>
+</div>
+      </div>
+      <!-- Recipe 3 -->
+     <!-- Recipe 3 -->
+<div class="recipe-card">
+  <img src="turkey.webp" alt="Turkey Necks and Gravy">
+  <h3>Smothered Turkey Necks and Gravy</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>2-3 lbs Turkey necks</li>
+      <li>1 TBS Cajun seasoning</li>
+      <li>2 tsp Onion powder</li>
+      <li>2 tsp Garlic powder</li>
+      <li>1 tsp Browning sauce</li>
+      <li>1/3 cup Vegetable oil</li>
+      <li>1/2 cup All-purpose flour</li>
+      <li>1 Diced onion</li>
+      <li>1 Diced bell pepper</li>
+      <li>4 cups Chicken stock</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Rinse the turkey necks with lemon juice and water. Cut off and remove all excess fat. Pat dry well using a paper towel.</li>
+    <li>In a bowl, season the necks with the Cajun seasoning, onion powder, garlic powder, and browning sauce.</li>
+    <li>Heat the vegetable oil in a heavy-bottomed stockpot. Brown the necks on all sides. Remove and set aside.</li>
+    <li>Stir in the flour until no longer visible, about 1 minute. Add in the onion and bell pepper. Sauté for 5 mins.</li>
+    <li>Return the necks to the pot. Pour in the chicken stock. Bring to a simmer.</li>
+    <li>Stir, cover with the lid, and reduce the heat to low. Cook until the turkey necks are tender, about 2 hours.</li>
+    <li>Uncover and cook until the gravy thickens, about 20 minutes.</li>
+    <li>Taste and adjust seasoning as desired. Serve over warm rice. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 4 -->
+     <!-- Recipe 4 -->
+<div class="recipe-card">
+  <img src="chicken.webp" alt="Air Fryer Chicken Thighs">
+  <h3>Juicy Air Fryer Chicken Thighs</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>8 Boneless skinless chicken thighs</li>
+      <li>1-2 TBS Cajun seasoning</li>
+      <li>1 TBS Onion powder</li>
+      <li>2 tsp Garlic powder</li>
+      <li>1 tsp Chili powder</li>
+      <li>1-2 tsp Smoked paprika</li>
+      <li>1 tsp Thyme</li>
+      <li>1 tsp Rosemary</li>
+      <li>1 TBS Fresh parsley</li>
+      <li>1/4 cup Mayo</li>
+      <li>1/2 cup Unsalted butter, melted</li>
+      <li>Lemon Pepper Sauce:</li>
+      <li>Juice from 1 lemon</li>
+      <li>Zest from half a lemon</li>
+      <li>1 tsp Garlic powder</li>
+      <li>1 TBS Cracked black pepper</li>
+      <li>Salt to taste</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Season the chicken thighs with all the ingredients. Toss well to ensure that the thighs are coated evenly with the spices and mayo.</li>
+    <li>Cover with plastic wrap and place in the refrigerator to marinate for at least 1 hour.</li>
+    <li>Preheat your air fryer. Line the basket of the air fryer with aluminum foil.</li>
+    <li>Place the thighs into the basket. Leave enough space between each other to ensure even cooking. Depending on the size of your air fryer, you may have to cook in batches to prevent overcrowding.</li>
+    <li>Air fry the chicken thighs on 400°F for 18-20 mins flipping the chicken over halfway through. Make sure the internal temperature of the chicken is 165°F.</li>
+    <li>Remove the chicken from the air fryer and wrap it in aluminum foil. Allow the thighs to rest for 10 minutes before serving.</li>
+    <li>Lemon Pepper Sauce: Stir all ingredients together well. Drizzle over the chicken. Enjoy!</li>
+  </ol>
+</div>
+
+     <!-- Recipe 5 -->
+<div class="recipe-card">
+  <img src="lamb.webp" alt="Garlic and Herb Lamb Chops">
+  <h3>Garlic and Herb Lamb Chops</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>6-8 Lamb loin or rib chops</li>
+      <li>Marinade:</li>
+      <li>1/3 cup Olive oil</li>
+      <li>1/3 cup Fresh parsley</li>
+      <li>2 sprigs Rosemary</li>
+      <li>1 sprig Thyme</li>
+      <li>1 tsp Cajun seasoning *</li>
+      <li>1/2 tsp Coarse sea salt *</li>
+      <li>1 TBS Onion powder</li>
+      <li>1 tsp Crushed red pepper flakes</li>
+      <li>1 TBS Cracked black pepper</li>
+      <li>Juice from 1 lemon</li>
+      <li>5-6 Crushed garlic cloves</li>
+      <li>Searing:</li>
+      <li>2 TBS Olive oil</li>
+      <li>2 TBS Unsalted butter for basting</li>
+      <li>2 sprigs Rosemary for pan</li>
+      <li>Sauce:</li>
+      <li>1/3 cup White wine</li>
+      <li>1/3 cup Chicken broth</li>
+      <li>3 TBS Worcestershire sauce</li>
+      <li>4 TBS Unsalted butter</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Marinade: Mix all ingredients except the garlic in a small bowl. Pour the marinade on top of the lamb chops in a large bowl. Rub the marinade evenly into the chops. Throw the garlic cloves into the bowl. Cover and refrigerate for at least 3 hours or overnight.</li>
+    <li>Searing: Remove the lamb chops from the refrigerator about 1 hour before searing to allow them to return to room temp. Heat olive oil in a large, cast iron skillet on medium-high. Once oil is hot, add in the lamb chops. Allow the chops to sear for 5 minutes without moving them around. Flip the chops over and add in the butter, garlic cloves from the marinade, and rosemary sprigs to the skillet. When the butter melts, baste the chops with the butter. Continue searing for 5 minutes or until a meat thermometer registers 145°F (or cook to your preferred level of doneness). Remove chops to a plate to keep warm and rest.</li>
+    <li>Sauce: Pour the wine into the same skillet to deglaze it. Add in the chicken broth, Worcestershire sauce, and butter. Stir until the wine reduces and the butter melts, about 2 minutes. Pour sauce over the lamb chops and serve. Enjoy!</li>
+  </ol>
+</div>
+
+    </section>
+    <section id="vegetarian" class="recipe-category">
+      <h2>Vegetarian Recipes</h2>
+      <!-- Recipe 1 -->
+<div class="recipe-card">
+  <img src="potato.webp" alt="Crispy Baked Potato Wedges">
+  <h3>Crispy Baked Potato Wedges</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>4-6 Yukon gold or russet potatoes</li>
+      <li>1/4 cup Olive oil</li>
+      <li>2 tsp Cajun seasoning or sea salt</li>
+      <li>1 tsp Onion powder</li>
+      <li>1 tsp Garlic powder</li>
+      <li>1 tsp Paprika</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Preheat oven to 400°F.</li>
+    <li>Rinse and scrub the potatoes. Pat dry.</li>
+    <li>Cut potatoes into wedges lengthwise.</li>
+    <li>Place the potato wedges into a bowl of cold water for 20 minutes.</li>
+    <li>Pat the wedges dry with a paper towel.</li>
+    <li>Toss the wedges in the olive oil. Then, sprinkle on all of the spices. Toss to coat well.</li>
+    <li>Place the wedges in a single layer onto a parchment paper or foil-lined baking sheet.</li>
+    <li>Bake for 40-45 minutes, flipping each wedge over halfway through the baking time.</li>
+    <li>Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 2 -->
+<div class="recipe-card">
+  <img src="pasta.webp" alt="Creamy Spaghetti and Cheese">
+  <h3>Creamy Spaghetti and Cheese</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>1 lb Thin or regular spaghetti</li>
+      <li>1 TBS Chicken bouillon powder</li>
+      <li>3 TBS Butter</li>
+      <li>1-2 12 oz cans Evaporated milk</li>
+      <li>1/2 to 1 lb American cheese, sliced</li>
+      <li>1 tsp Onion powder</li>
+      <li>Salt and white pepper to taste</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Bring a pot of water to a boil. Stir in the chicken bouillon powder.</li>
+    <li>Add the spaghetti and cook according to the package’s instructions until al dente. Drain. Do not rinse. Return the spaghetti to the pot.</li>
+    <li>Stir in the butter.</li>
+    <li>Add in the milk and cheese. Use as much or as little as you’d like.</li>
+    <li>Heat on a medium-low setting. Stir until cheese has melted.</li>
+    <li>Sprinkle in the onion powder. Taste.</li>
+    <li>Add salt and white pepper as desired. Stir well.</li>
+    <li>Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 3 -->
+      
+<div class="recipe-card">
+  <img src="vodka.webp" alt="Spicy Penne alla Vodka">
+  <h3>Spicy Penne alla Vodka</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>16 oz Penne pasta</li>
+      <li>1-2 TBS Olive oil</li>
+      <li>1 TBS Unsalted butter</li>
+      <li>1/3 cup Diced onions</li>
+      <li>1 TBS Minced garlic</li>
+      <li>1 TBS Crushed red pepper flakes</li>
+      <li>1 tsp Oregano or Italian seasoning</li>
+      <li>1 tsp Onion powder</li>
+      <li>1 tsp Garlic powder</li>
+      <li>1/2 cup Vodka</li>
+      <li>28 oz can Crushed tomatoes</li>
+      <li>3/4 cup Heavy cream</li>
+      <li>1 cup Freshly grated Parmesan Reggiano</li>
+      <li>3-4 leaves of Torn basil</li>
+      <li>Salt and pepper to taste</li>
+      <li>Chiffonade basil for garnish</li>
+      <li>Shredded fontina cheese (optional)</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Heat olive oil in a pan on medium heat. Add the butter.</li>
+    <li>As the butter melts, stir in the onions. Sauté for 5 minutes or until onions start to brown lightly.</li>
+    <li>Add the garlic; sauté for 30 seconds. Do NOT burn the garlic!</li>
+    <li>Add the crushed red pepper flakes, oregano/Italian seasoning, onion and garlic powders. Stir well.</li>
+    <li>IMPORTANT: Turn off the heat and remove the pan from the stove before adding in the vodka.</li>
+    <li>Stir in the vodka well. Then, return the pan to the stove and heat the pan on low. Be very careful of flames! Bring it to a low simmer and stir until the vodka reduces; about 2 minutes.</li>
+    <li>Pour in the crushed tomatoes. Salt and pepper to taste. Turn the heat to low and cover the pan with a lid, leaving a slight crack.</li>
+    <li>Simmer for 30 minutes. Stir in the heavy cream. Taste and adjust seasoning as needed. Cover and continue to simmer on low until the penne is ready.</li>
+    <li>Bring a pot of salted water to a rolling boil. Add the penne pasta and cook al dente according to package instructions.</li>
+    <li>Drain the pasta, but reserve some of the pasta water to add to the sauce later (optional).</li>
+    <li>Fold the pasta into the sauce. Add the Parmesan Reggiano cheese and torn basil. Stir well.</li>
+    <li>Serve with more chiffonade basil, fontina cheese, and/or crushed red pepper flakes if desired. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 4 -->
+    
+<div class="recipe-card">
+  <img src="guacamole.webp" alt="The Best Guacamole">
+  <h3>The Best Guacamole</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>2 large ripe avocados</li>
+      <li>1/4 cup Onion, diced</li>
+      <li>1 tsp Garlic, minced</li>
+      <li>1 Jalapeño, diced</li>
+      <li>2 TBS Fresh cilantro, finely chopped</li>
+      <li>Juice from 1/2 of a lime</li>
+      <li>2 Roma tomatoes, seeded and diced</li>
+      <li>Kosher salt to taste</li>
+    </ul>
+  </div>
+  <p>Instructions using a Molcajete:</p>
+  <ol>
+    <li>In a molcajete bowl, add in half of the onions, half of the jalapeños, half of the cilantro, all of the garlic, and 1/2 tsp of salt.</li>
+    <li>Use the pestle to grind the ingredients into a paste.</li>
+    <li>Cut, peel, and pit the avocados and add them into the molcajete bowl.</li>
+    <li>Smash the avocado with the pestle, combining it with the paste until the desired consistency is reached. Be sure to leave chunks of avocado.</li>
+    <li>Add in the rest of the onions, jalapeños, cilantro, tomatoes, and lime juice.</li>
+    <li>Gently fold everything together. Taste and add more salt as needed. Enjoy!</li>
+  </ol>
+  <p>Instructions using a regular mixing bowl:</p>
+  <ol>
+    <li>Cut, peel, and pit the avocados and add them to your bowl.</li>
+    <li>Use a fork to smash up the avocados to your desired consistency.</li>
+    <li>Add all remaining ingredients and stir gently to combine.</li>
+    <li>Salt to taste. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 5 -->
+<div class="recipe-card">
+  <img src="macaroni.webp" alt="The Cheesiest Macaroni and Cheese Ever">
+  <h3>The Cheesiest Macaroni and Cheese Ever</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>1 or 1 1/2 pounds Elbow macaroni</li>
+      <li>4 qt Chicken broth</li>
+      <li>2 TBS Butter</li>
+      <li>12 oz can Evaporated milk</li>
+      <li>1 cup Half and half</li>
+      <li>1 tsp Onion powder</li>
+      <li>2 tsp Salt</li>
+      <li>2 tsp White pepper</li>
+      <li>1 cup Shredded American cheese</li>
+      <li>1/2 cup Shredded Colby Jack cheese</li>
+      <li>1 cup Shredded Mozzarella cheese</li>
+      <li>1 cup Shredded Muenster cheese</li>
+      <li>1/2 cup Shredded Cheddar cheese</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Preheat oven to 375°F.</li>
+    <li>Pour broth into a large pot and bring to a boil.</li>
+    <li>Stir in the elbow macaroni and cook according to package instructions until al dente.</li>
+    <li>Drain macaroni. Do NOT rinse.</li>
+    <li>Pour macaroni back into the pot with heat off. Stir in the butter until it melts.</li>
+    <li>Pour in the evaporated milk and half and half. Turn heat back on to medium and bring mixture to a simmer.</li>
+    <li>Add in the salt, onion powder, and white pepper.</li>
+    <li>Stir in all of the American cheese and half of the rest of the cheeses EXCEPT the cheddar cheese.</li>
+    <li>Once cheese melts, turn off the heat.</li>
+    <li>Butter a 9×13 baking dish. Pour the macaroni into the dish in a single layer.</li>
+    <li>Add the remaining cheese on top including the cheddar cheese.</li>
+    <li>Bake for 30-35 minutes or until the cheese is as brown on top as you’d like.</li>
+    <li>Allow it to rest for 10 minutes. Enjoy!</li>
+  </ol>
+</div>
+
+    </section>
+    <section id="desserts" class="recipe-category">
+      <h2>Dessert Recipes</h2>
+    
+      <!-- Recipe 1 -->
+<div class="recipe-card">
+  <img src="EGGNOG.webp" alt="Homemade Eggnog">
+  <h3>Homemade Eggnog</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>4 eggs</li>
+      <li>2/3 cup Granulated sugar</li>
+      <li>2 cups Milk</li>
+      <li>1 cup Heavy whipping cream</li>
+      <li>1 TBS Pure vanilla extract</li>
+      <li>1/2 tsp Salt</li>
+      <li>1/2 tsp Allspice</li>
+      <li>1 TBS Granulated sugar</li>
+      <li>1/2 cup Hennessy bourbon or dark rum (optional)</li>
+      <li>Cinnamon to garnish</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Separate the egg whites from the yolks. Pour egg yolks into a mixing bowl; reserve whites for later.</li>
+    <li>Add 2/3 cup of sugar to the yolks. Mix yolks and sugar together until mixture turns pale yellow using a whisk or electric mixer.</li>
+    <li>Pour in the milk and heavy whipping cream. Mix until well combined.</li>
+    <li>Pour mixture into a heavy-bottom saucepan. Heat on medium-low (setting at 4-5) while whisking constantly until a candy thermometer inserted into the mixture reaches 170°F. (Do NOT Boil).</li>
+    <li>Remove from heat. Stir in the salt, vanilla, and allspice. Pour mixture into a glass bowl or pitcher. Allow eggnog to cool at room temperature.</li>
+    <li>Pour the reserved egg whites into a clean mixing bowl. Beat the egg whites until soft peaks are formed. Pour in 1 TBS of sugar. Continue beating the whites until stiff peaks are formed.</li>
+    <li>Fold the egg whites into the eggnog. Whisk to combine. Stir in the liquor of choice (optional).</li>
+    <li>Refrigerate for at least 2 hours. Garnish each serving with ground cinnamon. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 2 -->
+    
+<div class="recipe-card">
+  <img src="RUM.webp" alt="Boozy Rum Cake">
+  <h3>Boozy Rum Cake</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <p>Nuts:</p>
+    <ul>
+      <li>1 cup Chopped walnuts or pecans</li>
+      <li>1 TBS Brown sugar</li>
+      <li>1 tsp Ground cinnamon</li>
+      <li>2 TBS Rum (optional)</li>
+    </ul>
+    <p>Cake:</p>
+    <ul>
+      <li>1 stick Salted butter, softened</li>
+      <li>1 1/2 cup Granulated sugar</li>
+      <li>1/2 cup Vegetable oil</li>
+      <li>4 Eggs, room temperature</li>
+      <li>1 tsp Vanilla extract</li>
+      <li>1 tsp Butter extract (optional)</li>
+      <li>2 cups Cake flour or all-purpose flour</li>
+      <li>1 TBS Baking powder</li>
+      <li>3.4 oz box French vanilla pudding mix</li>
+      <li>1/2 cup Whole milk, room temperature</li>
+      <li>1/2 cup Rum (light, dark, or spiced)</li>
+      <li>Nonstick cooking spray</li>
+      <li>Extra flour for dusting</li>
+    </ul>
+    <p>Glaze:</p>
+    <ul>
+      <li>1 stick Salted butter</li>
+      <li>1 1/4 cup Sugar</li>
+      <li>1/3 cup Water</li>
+      <li>1 tsp Vanilla extract</li>
+      <li>1/3 cup Rum (light, dark, or spiced)</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li><strong>Nuts:</strong> Mix all ingredients in a small bowl. Set aside.</li>
+    <li><strong>Cake:</strong> Preheat oven to 325°F. Spray a Bundt pan with nonstick cooking spray and dust it with flour, tapping out the excess. Pour the nuts into the bottom of the pan evenly; set aside.</li>
+    <li>In a mixing bowl, combine the butter, sugar, and vegetable oil. Mix until well combined using an electric mixer (about 3-4 minutes).</li>
+    <li>Add in the eggs one at a time, mixing in between each addition. Then add in the extracts.</li>
+    <li>In a separate bowl, sift in the flour, baking powder, and pudding mix. Add half of the flour mix into the wet batter, then pour in the milk. Mix on medium speed until the flour is no longer visible. Add in the rest of the flour mix and the rum, and mix again until the flour is no longer visible.</li>
+    <li>Pour the batter into the Bundt pan on top of the nuts. Bake for 50 to 60 minutes or until a toothpick inserted into the cake comes out clean. Allow the cake to cool while working on the glaze.</li>
+    <li><strong>Glaze:</strong> In a saucepan, melt the butter. Add in the sugar and water, stir, and bring the mixture to a rolling boil. Lower the heat to simmer and simmer for 6 minutes without stirring. Remove from heat and add in the rum and vanilla extract.</li>
+    <li>Using a skewer or uncooked spaghetti noodle, poke holes all over the cake. Slowly pour the glaze, a little at a time, over the cake.</li>
+    <li>Allow the cake to cool to room temperature. Wrap the cake in plastic wrap and allow it to sit for at least 6 hours (preferably overnight). Flip the cake over onto a cake plate. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 3 -->
+  
+<div class="recipe-card">
+  <img src="PIE.webp" alt="Sweet Potato Pie">
+  <h3>Sweet Potato Pie</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>2 lbs Sweet potatoes</li>
+      <li>1 stick Salted butter, melted</li>
+      <li>2 Eggs, room temp</li>
+      <li>1 1/2 cup Granulated sugar*</li>
+      <li>1/2 cup Packed light brown sugar</li>
+      <li>2 TBS Self-rising flour</li>
+      <li>1/2 cup Evaporated milk</li>
+      <li>1 TBS Pure vanilla extract</li>
+      <li>1 TBS Lemon juice</li>
+      <li>1/2 tsp Allspice</li>
+      <li>1/2 or 1 tsp Cinnamon</li>
+      <li>1/2 tsp Salt</li>
+      <li>1 Pie crust</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Preheat oven to 425°F.</li>
+    <li>Poke potatoes with a fork. Bake on a baking sheet for 50-55 minutes or until cooked and tender.</li>
+    <li>Allow the potatoes to cool. Peel and scoop out the flesh of the potato and place into a mixing bowl.</li>
+    <li>Mash the potatoes and then blend with an electric mixer to remove the strings.</li>
+    <li>Add in all remaining ingredients except the pie crust. Blend well. Taste and add more sugar if needed.</li>
+    <li>Pour mixture into unbaked pie crust.</li>
+    <li>Tear pieces of foil and fold it over the exposed edges of the pie crust to prevent quick browning.</li>
+    <li>Bake at 350°F for 45-55 minutes until done.</li>
+    <li>Cool on a baking rack. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 4 -->
+      
+<div class="recipe-card">
+  <img src="PIE2.webp" alt="Southern Pecan Pie">
+  <h3>Southern Pecan Pie</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <ul>
+      <li>3 large eggs</li>
+      <li>1/2 cup granulated sugar</li>
+      <li>1/2 cup light brown sugar</li>
+      <li>1 cup dark corn syrup</li>
+      <li>1 TBS pure vanilla extract</li>
+      <li>1/2 tsp cinnamon</li>
+      <li>4 TBS salted butter, melted</li>
+      <li>1 1/4 cups pecan halves, roughly chopped</li>
+      <li>1 9-inch unbaked pie crust</li>
+      <li>Extra pecan halves for topping (optional)</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Preheat oven to 350°F.</li>
+    <li>In a mixing bowl, whisk the eggs and sugars together well.</li>
+    <li>Add in the corn syrup, cinnamon, vanilla extract, and melted butter. Whisk together well.</li>
+    <li>Pour the roughly chopped pecans into the pie crust.</li>
+    <li>Pour the filling on top of the pecans evenly.</li>
+    <li>Top with extra pecan halves if desired.</li>
+    <li>Bake for 45-55 minutes or until the pie is set.</li>
+    <li>Cool on a wire rack. Enjoy!</li>
+  </ol>
+</div>
+
+      <!-- Recipe 5 -->
+      <!-- Recipe 14 -->
+<div class="recipe-card">
+  <img src="choco.webp" alt="Easy Chocolate Cake">
+  <h3>Easy Chocolate Cake</h3>
+  <div class="ingredients">
+    <p>Ingredients:</p>
+    <p><strong>Cake:</strong></p>
+    <ul>
+      <li>2 cups cake flour or sifted all-purpose flour</li>
+      <li>2 cups granulated sugar</li>
+      <li>2 tsp baking powder</li>
+      <li>1 tsp baking soda</li>
+      <li>1/2 tsp salt</li>
+      <li>1 cup buttermilk, room temperature</li>
+      <li>2 eggs, room temperature</li>
+      <li>1/2 cup vegetable oil</li>
+      <li>1 TBS pure vanilla extract</li>
+      <li>1 cup hot coffee</li>
+    </ul>
+    <p><strong>Chocolate Cream Cheese Frosting:</strong></p>
+    <ul>
+      <li>3 sticks salted butter, room temperature</li>
+      <li>8 oz whipped cream cheese</li>
+      <li>1 cup unsweetened cocoa powder</li>
+      <li>4-5 cups confectioner’s sugar</li>
+      <li>1 TBS milk</li>
+      <li>1 TBS pure vanilla extract</li>
+    </ul>
+  </div>
+  <p>Instructions:</p>
+  <ol>
+    <li>Preheat oven to 350°F. Grease and line two 9 inch cake pans with parchment paper. Set aside.</li>
+    <li>In a large mixing bowl, sift the flour, sugar, cocoa powder, baking powder, baking soda, and salt together. Whisk well to combine.</li>
+    <li>Add the buttermilk, eggs, vegetable oil, and vanilla extract. Whisk and stir until combined. Do NOT over mix the batter.</li>
+    <li>Use a spatula to fold in the coffee.</li>
+    <li>Pour the batter evenly into the baking pans.</li>
+    <li>Bake for 30-35 minutes or until a toothpick inserted into the center of each cake comes out clean.</li>
+    <li>Place on a wire baking rack to cool.</li>
+    <li><strong>Frosting:</strong> Using an electric mixer, blend the butter and cream cheese together until smooth. Sift in the confectioner’s sugar and cocoa powder. Add the milk and extract. Use the mixer and slowly blend until smooth.</li>
+    <li>Once the cake has cooled completely, frost it as desired. Refrigerate any remaining frosting in an airtight container for up to 1 week. Enjoy!</li>
+  </ol>
+</div>
+
+    </section>
+  </div>
+  <div class="social-links">
+    <a href="https://www.instagram.com"><img src="insta.png" alt="Instagram" style="width: 20px; height: 20px;"></a>
+    <a href="https://www.facebook.com"><img src="fb.png" alt="Facebook" style="width: 20px; height: 20px;"></a>
+    <a href="https://twitter.com"><img src="Logo_of_Twitter.svg" alt="Twitter" style="width: 20px; height: 20px;"></a>
+</div>
+  </div>
+ <footer>
+    <p>© 2024 Recipe Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
